@@ -1,0 +1,32 @@
+body {
+  background: url(https://c.wallhere.com/images/c5/48/63f8a7ee21622f22cc9919bfa395-1551705.jpg!d);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.weather-box {
+  border: 3px solid white;
+  padding: 50px;
+  color: white;
+  border-radius: 30px;
+  background-color: slategrey;
+}
+
+.city-button button {
+  margin-right: 8px; /* 오른쪽 마진을 8px로 설정합니다. 마지막 버튼의 마진을 제거하려면 추가 스타일이 필요합니다. */
+}
+
+/* 마지막 버튼의 오른쪽 마진을 제거합니다. */
+.city-button button:last-child {
+  margin-right: 0;
+}
